@@ -36,4 +36,11 @@ function addTweet(data) {
         container.find("#tweet_translated")
             .text(result.result);
     }, "json");
+
+    $.post("time", { latitude: data.geo.coordinates[0], longitude: data.geo.coordinates[1] }, function(result) {
+        container.find("#local_time")
+            .text(
+                new Date(parseInt(result.timestamp * 1000)).toGMTString() + " (" + data.place.country + ")"
+            );
+    }, "json");
 }

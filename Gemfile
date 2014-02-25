@@ -35,6 +35,7 @@ end
 
 gem 'twitter'
 gem 'savon', '~> 2.0'
+gem 'unirest'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'

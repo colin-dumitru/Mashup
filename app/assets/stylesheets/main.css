@@ -39,6 +39,11 @@ body {
     padding: 5px;
 }
 
+.time_text{
+    color: darkgrey;
+    text-align: right;
+}
+
 .tweet{
     position: relative;
     background-color: white;

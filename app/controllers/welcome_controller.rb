@@ -2,6 +2,7 @@ require 'twitter'
 require 'savon'
 require 'net/http'
 require 'uri'
+require 'unirest'
 
 class WelcomeController < ApplicationController
 
@@ -74,5 +75,16 @@ class WelcomeController < ApplicationController
     })
 
     @access_token = JSON.parse(response.body)['access_token']
+  end
+
+  def time
+    # response = Unirest::get("https://worldtimeiodeveloper.p.mashape.com/geo?latitude=&longitude=#{params[:longitude]}",
+    response = Unirest::get("http://api.timezonedb.com/?lat=#{params[:latitude]}&lng=#{params[:longitude]}&key=23D4A1QEFXVQ&format=json",
+        headers: {
+            'X-Mashape-Authorization' => '3l8JNokiSQyO6lxMQX77VLQePlsAdeCC'
+        }
+    )
+
+    render json: response.body
   end
 end

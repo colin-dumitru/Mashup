@@ -63,6 +63,7 @@
     <orderEntry type="library" scope="PROVIDED" name="railties (v4.0.0, RVM: ruby-2.0.0-p247 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rake (v10.1.1, RVM: ruby-2.0.0-p247 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rdoc (v4.1.1, RVM: ruby-2.0.0-p247 [global]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rest-client (v1.6.7, RVM: ruby-2.0.0-p247 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rubyntlm (v0.3.4, RVM: ruby-2.0.0-p247 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sass (v3.2.14, RVM: ruby-2.0.0-p247 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sass-rails (v4.0.1, RVM: ruby-2.0.0-p247 [global]) [gem]" level="application" />
@@ -80,6 +81,7 @@
     <orderEntry type="library" scope="PROVIDED" name="twitter (v5.7.1, RVM: ruby-2.0.0-p247 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="tzinfo (v0.3.38, RVM: ruby-2.0.0-p247 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="uglifier (v2.4.0, RVM: ruby-2.0.0-p247 [global]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="unirest (v1.1.2, RVM: ruby-2.0.0-p247 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="wasabi (v3.2.3, RVM: ruby-2.0.0-p247 [global]) [gem]" level="application" />
   </component>
   <component name="RModuleSettingsStorage">

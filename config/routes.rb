@@ -6,5 +6,6 @@ MashUp::Application.routes.draw do
   root 'welcome#index'
 
   get '/tweets' => 'welcome#tweets'
+  post '/time' => 'welcome#time'
   post '/translate' => 'welcome#translate'
 end
